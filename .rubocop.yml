@@ -5,12 +5,13 @@ AllCops:
     - 'test/**/*'
     - 'db/**/*'
     - 'config/**/*'
-    - 'bin/**/*'
+    - 'bin/*'
     - 'config.ru'
     - 'Gemfile'
     - 'Rakefile'
-Style/FrozenStringLiteralComment:
-    Enabled: false
 
- Style/Documentation:
-    Enabled: false    
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
