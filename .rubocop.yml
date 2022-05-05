@@ -2,8 +2,8 @@ require: rubocop-rails
 
 AllCops:
   Exclude:
-    - 'db/**/*'
     - 'test/**/*'
+    - 'db/**/*'
     - 'config/**/*'
     - 'bin/**/*'
     - 'config.ru'
@@ -11,3 +11,6 @@ AllCops:
     - 'Rakefile'
 Style/FrozenStringLiteralComment:
     Enabled: false
+
+ Style/Documentation:
+    Enabled: false    
