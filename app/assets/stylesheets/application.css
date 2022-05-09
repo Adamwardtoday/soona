@@ -34,6 +34,18 @@
 
 a:link { text-decoration: none;}
 
-#inboxes {
-    border: 2px solid black;
+.scaffold_record {
+    border: 2px solid rgb(180, 182, 181);
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 6px;
+    word-break: break-word;
+}
+#error_explaination {
+    color: rgb(251, 0, 255);
+    border: 2px solid rgb(180, 182, 181);
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 6px;
+
 }

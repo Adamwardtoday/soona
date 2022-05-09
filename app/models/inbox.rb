@@ -1,6 +1,6 @@
 class Inbox < ApplicationRecord
   MIN_NAME = 4
-  MAX_NAME = 100
+  MAX_NAME = 1000
 
   validates :name, presence: true
   validates :name, uniqueness: true
